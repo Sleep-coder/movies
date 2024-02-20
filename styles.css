@@ -1,6 +1,26 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  margin: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nav-item {
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  height: 1px;
 }
 
 #app {
@@ -41,4 +61,8 @@ button {
 .favorite-icon {
   color: red;
   cursor: pointer;
+}
+
+.favorited {
+  color: red;
 }
